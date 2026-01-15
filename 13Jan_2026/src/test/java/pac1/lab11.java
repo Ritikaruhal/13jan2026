@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class lab11 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub 
+		// TODO Auto-generated method stub ///
 
 Scanner sc = new Scanner(System.in);
         System.out.print("Enter date (yyyy-mm-dd): ");
