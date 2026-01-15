@@ -5,7 +5,7 @@ import java.time.Period;
 import java.util.Scanner;
 
 public class Lab15 {
-	// TODO Auto-generated method stub 
+	// TODO Auto-generated method stub /////
     public static int CalculateAge(LocalDate dob) {
         return Period.between(dob, LocalDate.now()).getYears();
     }
