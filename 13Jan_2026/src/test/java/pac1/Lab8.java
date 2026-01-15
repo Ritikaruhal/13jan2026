@@ -7,10 +7,10 @@ public class Lab8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Create Person object with name; we will set gender via validated input
+       
         Person obj = new Person("Ritika", "Ruhal", (Gender) null);
 
-        // Accept and validate gender using enum
+        
         Gender g = null;
         while (g == null) {
             System.out.print("Enter Gender (M/F): ");
@@ -22,7 +22,7 @@ public class Lab8 {
         }
         obj.setGender(g);
 
-        // Accept phone number
+        
         System.out.print("Enter Phone Number: ");
         String phone = sc.nextLine().trim();
         obj.setPhoneNumber(phone);

@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Lab9 {
 
-    // Method to perform operation based on choice
+    
     public static String performOperation(String str, int choice) {
         switch (choice) {
-            case 1: // Add the String to itself
+            case 1: 
                 return str + str;
 
-            case 2: // Replace odd positions with '#'
+            case 2: 
                 StringBuilder sb1 = new StringBuilder();
                 for (int i = 0; i < str.length(); i++) {
                     if ((i + 1) % 2 != 0) {
@@ -21,7 +21,7 @@ public class Lab9 {
                 }
                 return sb1.toString();
 
-            case 3: // Remove duplicate characters
+            case 3: 
                 StringBuilder sb2 = new StringBuilder();
                 for (int i = 0; i < str.length(); i++) {
                     char c = str.charAt(i);
@@ -31,7 +31,7 @@ public class Lab9 {
                 }
                 return sb2.toString();
 
-            case 4: // Change odd characters to upper case
+            case 4: 
                 StringBuilder sb3 = new StringBuilder();
                 for (int i = 0; i < str.length(); i++) {
                     if ((i + 1) % 2 != 0) {
