@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Lab14 {
-	// TODO Auto-generated method stub 
+	// TODO Auto-generated method stub //
     public static void printDateTimeForZone(String zoneId) {
         ZonedDateTime zonedDateTime = ZonedDateTime.now(ZoneId.of(zoneId));
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
