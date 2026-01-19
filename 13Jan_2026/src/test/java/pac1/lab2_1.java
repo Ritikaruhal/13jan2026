@@ -1,4 +1,3 @@
-
 package pac1;
 
 public class lab2_1 {
