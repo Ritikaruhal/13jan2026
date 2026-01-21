@@ -18,7 +18,7 @@ public class Lab4_5{
             this.salary = salary;
             this.designation = designation;
         }
- 
+        
         @Override
         public String toString() {
             return id + " - " + name + " - " + salary + " - " + designation + " - " + insuranceScheme;
@@ -72,10 +72,10 @@ public class Lab4_5{
                 map.put(id, emp);
             }
 
-            System.out.print("\nEnter Insurance Scheme to view (e.g., Scheme A/B/C or No Scheme): ");
+            System.out.print("Enter Insurance Scheme to view (e.g., Scheme A/B/C or No Scheme): ");
             String queryScheme = sc.nextLine().trim();
  
-            System.out.println("\nEmployees with '" + queryScheme + "':");
+            System.out.println("Employees with '" + queryScheme + "':");
             boolean any = false;
             for (Employee e : map.values()) {
                 if (e.insuranceScheme.equalsIgnoreCase(queryScheme)) {
@@ -85,7 +85,7 @@ public class Lab4_5{
             }
             if (!any) System.out.println("No employees found for that scheme.");
 
-            System.out.print("\nEnter Employee ID to delete: ");
+            System.out.print("Enter Employee ID to delete: ");
             int delId = Integer.parseInt(sc.nextLine().trim());
  
             if (map.remove(delId) != null) {
