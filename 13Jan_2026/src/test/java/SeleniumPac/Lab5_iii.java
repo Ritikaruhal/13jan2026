@@ -22,7 +22,7 @@ public class Lab5_iii{
         driver.findElement(By.linkText("Register")).click();
         driver.findElement(By.id("input-firstname")).sendKeys("ritika");
         driver.findElement(By.id("input-lastname")).sendKeys("madam");
-        driver.findElement(By.id("input-email")).sendKeys("abcvcdefg12@mail.com");
+        driver.findElement(By.id("input-email")).sendKeys("abcddcba1212@mail.com");
         driver.findElement(By.id("input-telephone")).sendKeys("2222222222");
         driver.findElement(By.id("input-password")).sendKeys("Ab@cd@ef12");
         driver.findElement(By.id("input-confirm")).sendKeys("Ab@cd@ef12");

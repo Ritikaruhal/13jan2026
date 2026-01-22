@@ -23,7 +23,7 @@ public class Lab5_ii {
 
         driver.findElement(By.id("input-firstname")).sendKeys("Ritikaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         driver.findElement(By.id("input-lastname")).sendKeys("Ruhalllllllllllllllllllllllllllllllllllllllllllllllllllllll");
-        driver.findElement(By.id("input-email")).sendKeys("ritikaruhal@mail.com");
+        driver.findElement(By.id("input-email")).sendKeys("ritikaruhal21@mail.com");
         driver.findElement(By.id("input-telephone")).sendKeys("9667869832222222222222222222222222222222222222222222");
 
         driver.findElement(By.xpath("//input[@value='Continue']")).click();
@@ -31,6 +31,7 @@ public class Lab5_ii {
         List<WebElement> errors = driver.findElements(By.cssSelector(".text-danger"));
         for (WebElement e : errors) {
             System.out.println("Error: " + e.getText());
+            
         }
     }
 }
