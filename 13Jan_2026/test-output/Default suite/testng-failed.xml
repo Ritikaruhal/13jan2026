@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orhrm.tests.logintest">
+      <class name="RestAPITesting.practise">
         <methods>
-          <include name="verifylogin" invocation-numbers="0"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="getEmp"/>
         </methods>
-      </class> <!-- com.orhrm.tests.logintest -->
+      </class> <!-- RestAPITesting.practise -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
